@@ -6,7 +6,7 @@ body{
     flex-flow: column wrap;
 }
 
-
+/* Header */
 .header{
     background-color: #1f2937;
     color: #f9faf8;
@@ -22,15 +22,25 @@ body{
 
 .header-logo{
     font-size: 24px;
+    font-weight: bold;
 }
 
 .header-bottom{
     justify-content: center;
+    margin: 25px 50px 25px 50px;
+    padding: 25px 50px 25px 50px;
+}
+
+.title{
+    padding-right: 50px;
 }
 
 .bold-title{
     font-size: 48px;
     font-weight: bolder;
+    padding-right: 30px;
+    margin-bottom: 15px;
+
 }
 
 .subtitle{
@@ -43,3 +53,52 @@ a {
     color: #ffff;
     margin: 5px;
   }
+
+  /*TODO add rounded corners to button*/ 
+.header-sign-up-button{
+    background-color: #3882F6;
+    color:#e5e7eb;
+    border: 0;
+    margin-top: 10px;
+    padding: 8px;
+    border-radius: 10px;
+    width: 100px;
+}
+
+/* Content number 1 */
+.content{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    margin: 25px;
+}
+.content-title{
+    color: #1f2937;
+    font-weight: bolder;
+    font-size: 36px;
+}
+
+.container-illustration{
+    display: flex;
+    flex-direction: row;
+}
+
+.container-cards{
+    display: flex;
+    flex-direction: column;
+    margin: 35px;
+    align-items: center;
+}
+
+.content-cards{
+    border-radius: 25px;
+    border: 2px solid #3882F6;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+
+/* Content number 2 */
